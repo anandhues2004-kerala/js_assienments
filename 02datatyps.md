@@ -77,24 +77,46 @@ a : let num ="107"
 console.log(typeof(num));
 18. Declare variables of all primitive data types and print their types.
 a : 
- <!-- *string
+```js
+//  string
+ ```js
   let text ="hello" ;
-  console.log("type of text:",typeof text) -->
-  <!-- *number
+  console.log("type of text:",typeof text) 
+  ```
+  
+  
+  ```js
+//   number
   let count =100;
-  console.log("type of count:";typeof count) -->
-  <!-- *boolen
+  console.log("type of count:";typeof count)
+  ```
+
+ ```js
+//   boolean
+
   let isTure = true;
-  console.log("type of istrue:",typeof is true) -->
-  <!-- *null 
+  console.log("type of istrue:",typeof is true)
+  ```
+
+
+  ```js
+
+//   null
+
    let emptyvalue = null;
   console.log("type of emptyvalue:",typeof emptyvalue) -->
-  <!-- *undefiend -->
+  ```
+  
+```js
+//   undefied
      let notassigend = ;
-  console.log("type of notassigend:",typeof notassigend) -->
+  console.log("type of notassigend:",typeof notassigend) 
+
+  ```
   
 19. Write a program to convert a string to a number.
 a :
+```js
 let num ="107"
 num=Number(num)
 console.log(Number("107"));
@@ -103,8 +125,10 @@ console.log(Number("107"));
 num=String(num);
 console.log(num)
 console.log(typeof num)
+```
 
 21. What will be the output of:
+```js
 console.log(typeof 42);
 a : number
 console.log(typeof "Hello");
@@ -125,27 +149,34 @@ a: 2
 
 console.log(false + "hello");
 a:falsehello
+```
 
 23. Create an object and an array, then check their data types using `typeof`.
-
+```js
 let obj ={};
 let arr =[];
 console.log(type of obj);
 console.log(type of arr)
+```
 Section D: Advanced Thinking
 24. Can a variable change its data type? Explain with example.
    a: yes javascript is dynamically typed,so a variable can hold differnt types at deffernt types at differnet times
-   examples
+   ```js
+   //examples
    let x =10;
    console.log(typeof x);  number
     let x ="10";
    console.log(typeof x);  string
     let x = true;
    console.log(typeof x);  boolean
+   ```
 25. How does JavaScript handle large integers?
 a : for every large integer situation js  used in bigint
-  example
+
+  //examples
+  ```js
   let big = 90000500077n;
   let bigger =big + 10n;
   console.log(bigger):   90000500087
+  ```
 
