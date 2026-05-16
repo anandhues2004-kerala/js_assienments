@@ -199,10 +199,9 @@ else if(a<0)
 {alert("Number is negative")}
 else
 {alert("Number is zero")}
-*/
+~~~
 ________________________________________
-14. # Check if a student passed or failed marks ≥ 40 → Pass
-Else → Fail
+14. # Check if a student passed or failed marks ≥ 40 → Pass Else → Fail
 
 ~~~js
 
