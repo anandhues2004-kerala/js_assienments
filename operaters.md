@@ -234,9 +234,9 @@ discountPercentage = ((MRP – sellingPrice) * 100) / MRP
 
 ~~~js
 
-let MRP = Number(prompt("enter mrp"))
+let mrp = Number(prompt("enter mrp"))
 let sellingPrice = Number(prompt("enter selling price"))
-let discountPercentage = ((MRP-sellingPrice)*100)/MRP
+let discountPercentage = ((mrp-sellingPrice)*100)mrp
 alert(discountPercentage)
 ~~~
 
